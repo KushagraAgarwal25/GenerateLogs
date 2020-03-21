@@ -58,6 +58,10 @@ public class LoginTest {
 		driver.findElement(By.xpath("//*[(@class='ui fluid large blue submit button')]")).click();
 	}
 	
+	@Test
+	public void loginSet(){
+		System.out.println("loginSet");
+	}
 	
 	
 	@AfterMethod
